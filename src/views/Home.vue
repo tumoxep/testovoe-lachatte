@@ -101,7 +101,7 @@ const onFileUpload = (event: Event) => {
     }
   }
   for (const file of fileList) {
-    Papa.parse(file, parseConfig)
+    Papa.parse(<any>file, parseConfig)
   }
 }
 
