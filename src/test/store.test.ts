@@ -25,7 +25,7 @@ describe('Contact Store', () => {
     expect(contacts.contacts).toHaveLength(0)
     contacts.addNewContact(contact)
     expect(contacts.contacts).toHaveLength(1)
-    expect(contacts.contacts[0].id).toBe(0)
+    expect(contacts.contacts[0].id).toBe(1)
     expect(contacts.contacts[0].hash).toBe(expectedHash)
 
     contact.firstName = 'Remock'
