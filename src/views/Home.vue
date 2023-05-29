@@ -137,6 +137,7 @@ const onExport = () => {
       </label>
       <input
         type="file"
+        accept="text/csv"
         name="file"
         id="upload-file"
         style="display:none"
